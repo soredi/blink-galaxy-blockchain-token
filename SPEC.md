@@ -1,0 +1,5 @@
+- Invariants (cannot exceed cap, transfer gating logic truth table).
+- Role model (who can do what).
+- EIP-712 domain separator formula.
+- Differences vs GQ (non-proxy, OZ v5 hooks, no auto-vote on mint).
+- Events that matter (Minted, Burned, RoleGranted/Revoked).

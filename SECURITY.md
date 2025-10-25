@@ -1,0 +1,4 @@
+- Non-upgradeable: no proxy admin risk.
+- Keys: recommend Gnosis Safe for the multisig.
+- Procedures: how to disable whitelist, how to rotate roles.
+- Emergency withdraw guardrails (only ERC20, not native ETH).

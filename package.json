@@ -1,0 +1,24 @@
+{
+  "name": "blink-galaxy-blockchain",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:base": "hardhat run scripts/deploy.ts --network base",
+    "deploy:baseSepolia": "hardhat run scripts/deploy.ts --network baseSepolia",
+    "deploy:skale": "hardhat run scripts/deploy.ts --network skale",
+    "verify": "hardhat run scripts/verify.ts --network baseSepolia",
+    "lint:sol": "solhint 'contracts/**/*.sol'"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.10.0",
+    "hardhat": "^2.22.5",
+    "solhint": "^4.5.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
